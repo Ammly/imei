@@ -4,9 +4,9 @@ require_once('vendor/autoload.php');
 $imei = intval("3557410674329634");
 
 // These code snippets use an open-source library. http://unirest.io/php
-$response = Unirest\Request::post("https://ismaelc-imei-info.p.mashape.com/checkimei?login=Ammly&password=sub00ts]0M",
+$response = Unirest\Request::post("https://ismaelc-imei-info.p.mashape.com/checkimei?login=username&password=password",
   array(
-  	"X-Mashape-Key" => "HINimqmaqjmshU3SF2tlVyJo79mwp1LPmtTjsniTICNVxdvAYq",
+  	"X-Mashape-Key" => "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     "Content-Type" => "application/x-www-form-urlencoded",
     "Accept" => "application/json"
   ),
